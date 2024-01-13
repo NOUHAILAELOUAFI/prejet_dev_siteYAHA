@@ -1,0 +1,47 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        background-image: url("C:\xampp\htdocs\siteYAHA\photo_snap\imagesite2.png");
+        /*background-color: #f4f4f4;*/
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    form {
+        width: 400px;
+        height: 400px;
+        background-color: #ffdeb8;
+        padding: 20px;
+        border-radius: 8px;
+        
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+        color: #555;
+    }
+
+    input {
+        width: 400px;
+        padding: 10px;
+        margin-bottom: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+        background-color:#f8c2ec;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+        background-color:#f8c2ec;
+    }
+

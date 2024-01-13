@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header {
+    background-size: cover; 
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+
+nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+}
+
+nav a {
+    color:#d9cbcb;
+    padding: 10px;
+    margin: 0 10px;
+    text-decoration: underline;
+}
+
+section {
+    padding:10px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    text-align: center;
+    background-color:  #f3f1f0;
+    box-shadow: 0 2px 4px rgba(214, 81, 81, 0.586);
+}
+.div1{ 
+    width: 400px;
+    height: 400px;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 50px ;
+    border-radius: 30px;
+
+}
+footer {
+    background-color:rgb(62, 44, 29);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.button{
+    background-color: rgb(142, 109, 82);
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    transition-duration: 0.5s; 
+    padding: 8px 30px;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 5%;
+    font-weight: bold;
+}
